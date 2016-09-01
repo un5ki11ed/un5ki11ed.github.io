@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.un5ki11ed" name="un5ki11ed Addons" version="1.0.0" provider-name="un5ki11ed and many others">
+	<extension point="xbmc.addon.repository" name="un5ki11ed Addons">
+		<info compressed="false">http://un5ki11ed.github.io/addons.xml</info>
+		<checksum>http://un5ki11ed.github.io/addons.xml.md5</checksum>
+		<datadir zip="true">http://un5ki11ed.github.io/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>un5ki11ed Addons</summary>
+		<description>un5ki11ed's Addon-Repository</description>
+		<disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with
+			your local laws before installing.
+		</disclaimer>
+		<disclaimer lang="de">Einige Teile dieses Addons sind möglicherweise in Ihrem Land nicht legal - bitte prüfen
+			Sie Ihre lokal gültigen Gesetze vor der Installation.
+		</disclaimer>
+		<language>en de</language>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.flix2kodi"
+       name="Flix2Kodi"
+       version="0.6.5"
+       provider-name="un5ki11ed and many others">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.8.1"/>
+        <import addon="script.skin.helper.service" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Netflix plugin</summary>
+        <summary lang="de">Netflix plugin</summary>
+        <description lang="en">Plugin to watch netflix with Kodi.</description>
+        <description lang="de">Plugin um Netflix mit Kodi anzusehen.</description>
+        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with
+            your local laws before installing.
+        </disclaimer>
+        <disclaimer lang="de">Einige Teile dieses Addons sind möglicherweise in Ihrem Land nicht legal - bitte prüfen
+            Sie Ihre lokal gültigen Gesetze vor der Installation.
+        </disclaimer>
+        <language>en de</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website>https://github.com/un5ki11ed/plugin.video.flix2kodi</website>
+        <email/>
+        <source/>
+    </extension>
+</addon>
+</addons>
