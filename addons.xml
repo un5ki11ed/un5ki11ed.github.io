@@ -22,7 +22,7 @@
 
 <addon id="plugin.video.flix2kodi"
        name="Flix2Kodi"
-       version="0.6.5"
+       version="0.6.6"
        provider-name="un5ki11ed and many others">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
